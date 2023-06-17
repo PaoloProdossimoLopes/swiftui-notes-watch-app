@@ -1,9 +1,5 @@
-#  TITLE
-DESCRIPTION ...
-
-## 🧰 Example:
-```swift
-```
+#  Notes for watchOS
+This application store the notes making in the apple watch
 
 ## ℹ️  GETTING STARTED
 ### PREREQUISITES 
