@@ -13,6 +13,10 @@
 		B1FB37862A3DCF1400A10588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FB37852A3DCF1400A10588 /* Assets.xcassets */; };
 		B1FB37892A3DCF1400A10588 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FB37882A3DCF1400A10588 /* Preview Assets.xcassets */; };
 		B1FB37962A3DD18F00A10588 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37952A3DD18F00A10588 /* Note.swift */; };
+		B1FB37982A3DDAA100A10588 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37972A3DDAA100A10588 /* DetailView.swift */; };
+		B1FB379A2A3DDDB500A10588 /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37992A3DDDB500A10588 /* CreditView.swift */; };
+		B1FB379C2A3DDDE500A10588 /* HeaderVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB379B2A3DDDE500A10588 /* HeaderVIew.swift */; };
+		B1FB379E2A3DE1B400A10588 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB379D2A3DE1B400A10588 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B1FB37852A3DCF1400A10588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1FB37882A3DCF1400A10588 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1FB37952A3DD18F00A10588 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		B1FB37972A3DDAA100A10588 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B1FB37992A3DDDB500A10588 /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		B1FB379B2A3DDDE500A10588 /* HeaderVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderVIew.swift; sourceTree = "<group>"; };
+		B1FB379D2A3DE1B400A10588 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 			children = (
 				B1FB37812A3DCF1100A10588 /* NotesApp.swift */,
 				B1FB37832A3DCF1100A10588 /* ContentView.swift */,
+				B1FB37972A3DDAA100A10588 /* DetailView.swift */,
+				B1FB37992A3DDDB500A10588 /* CreditView.swift */,
+				B1FB379B2A3DDDE500A10588 /* HeaderVIew.swift */,
+				B1FB379D2A3DE1B400A10588 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,8 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1FB37842A3DCF1100A10588 /* ContentView.swift in Sources */,
+				B1FB37982A3DDAA100A10588 /* DetailView.swift in Sources */,
 				B1FB37822A3DCF1100A10588 /* NotesApp.swift in Sources */,
+				B1FB379C2A3DDDE500A10588 /* HeaderVIew.swift in Sources */,
+				B1FB379E2A3DE1B400A10588 /* SettingsView.swift in Sources */,
 				B1FB37962A3DD18F00A10588 /* Note.swift in Sources */,
+				B1FB379A2A3DDDB500A10588 /* CreditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

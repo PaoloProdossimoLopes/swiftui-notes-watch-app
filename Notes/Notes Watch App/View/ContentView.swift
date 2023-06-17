@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @AppStorage("lineCounter") private var lineCounter = 1
     @State private var notes = [Note]()
     @State private var text = String()
     
@@ -41,15 +42,18 @@ struct ContentView: View {
                 Spacer()
             } else {
                 List {
-                    ForEach(notes) { note in
-                        HStack {
-                            Capsule()
-                                .frame(width: 4)
-                                .foregroundColor(.accentColor)
-                            
-                            Text(note.text)
-                                .lineLimit(1)
-                                .padding(.leading, 5)
+                    ForEach(0..<notes.count, id: \.self) { index in
+                        let note = notes[index]
+                        NavigationLink(destination: DetailView(note: note, count: notes.count, index: index)) {
+                            HStack {
+                                Capsule()
+                                    .frame(width: 4)
+                                    .foregroundColor(.accentColor)
+                                
+                                Text(note.text)
+                                    .lineLimit(lineCounter)
+                                    .padding(.leading, 5)
+                            }
                         }
                     }
                     .onDelete { index in
